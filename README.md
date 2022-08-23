@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Tweetbright/huddle-landing-page)
-- Live Site URL: [](https://ochuko-frontendmentor-1.netlify.app/)
+- Solution URL: [Github Solution](https://github.com/Tweetbright/huddle-landing-page)
+- Live Site URL: [Live URL](https://ochuko-frontendmentor-1.netlify.app/)
 
 ## My process
 
