@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/Tweetbright/huddle-landing-page)
+- Live Site URL: [](https://ochuko-frontendmentor-1.netlify.app/)
 
 ## My process
 
@@ -25,5 +25,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@tweetbright](https://www.frontendmentor.io/profile/Tweetbright)
 - Twitter - [@ogheneochukobri](https://www.twitter.com/ogheneochukobri)
