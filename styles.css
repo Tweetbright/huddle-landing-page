@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "open sans";
+}
+
+main {
+  height: 100vh;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("images/bg-desktop.svg");
+}
+nav {
+  padding: 15px 50px;
+}
+
+nav .image {
+  height: 80px;
+  width: 150px;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 50px;
+  margin-top: 30px;
+}
+
+#right {
+  padding: 50px;
+  color: white;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-family: "poppins";
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+button {
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+button:hover {
+  border: 1px solid hsl(300, 69%, 71%);
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  column-gap: 20px;
+}
+
+footer embed {
+  width: 32px;
+  background: none;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    height: auto;
+    width: 100%;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+  }
+
+  nav .image {
+    height: 60px;
+    width: 120px;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 25px;
+    margin-top: 30px;
+  }
+
+  #left,
+  #right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #left img {
+    width: 80%;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "poppins";
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  #right {
+    padding: 30px;
+    color: white;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+
+  button {
+    padding: 15px 100px;
+    border-radius: 50px;
+    border: 1px solid white;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    column-gap: 10px;
+  }
+}
